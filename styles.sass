@@ -1,0 +1,188 @@
+body
+	font-family: 'Roboto', sans-serif
+
+h2, h3, h4 
+	font-weight: 300
+	span
+		font-weight: 900
+
+h2
+	font-size: 44px
+	line-height: 75px
+	margin: 52px 54px 17px 56px
+	letter-spacing: 2px
+
+h3
+	font-size: 44px
+	margin: 59px 56px 24px 30px
+	line-height: 63px
+	letter-spacing: 1.9px
+	color: #fff
+	span
+		letter-spacing: 1.5px
+
+h4
+	font-size: 40px
+	line-height: 59px
+	letter-spacing: 1.3px
+	margin: 52px 54px 44px 54px
+
+p 
+	font-size: 16.57px
+	line-height: 28px
+	margin: 0px 51px 29px 54px
+	letter-spacing: 1.25px
+
+a, button, input, textarea
+	font-size: 15.57px
+	letter-spacing: 0.9px
+
+a
+	color: #000
+	text-decoration: none
+	border: 1px solid #000
+	border-radius: 12px
+	padding: 15px 41px
+	margin-left: 55px
+	line-height: 5.9
+
+.button
+	display: block
+	width: 33px
+	height: 33px
+	background-image: url(img/menu.svg)
+	background-color: transparent
+	border: none
+	margin: 52px 54px 59px 54px
+
+.grid
+	display: grid
+	grid-template-rows: auto
+	grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 
+	grid-template-areas: "a a a a a a b b b" "c c c c d d d d d" "c c c c e e e e e" "f f f h h h h h h"
+
+.item-boy, .item-blue, .item-road, .item-designer, .item-cream, .item-clock
+	background-size: cover
+	background-repeat: no-repeat
+	background-position: center center 
+
+.item-human
+	grid-area: a
+	background-image: url(img/boy.png)
+	height: 100%
+
+.item-gray
+	grid-area: b
+	background-color: #f3f3f3
+	padding-bottom: 65px
+
+.item-blue
+	grid-area: c
+	background-image: url(img/desk.png)
+	padding-bottom: 24px
+	padding-left: 13px
+	p
+		color: #fff
+		margin-left: 27px
+		margin-right: 96px
+		font-size: 15.27px
+		letter-spacing: 0.7px
+		padding-bottom: 9px
+
+.item-cream
+	grid-area: d
+	background-image: url(img/flags.png)
+	p 
+		margin-right: 150px
+		letter-spacing: 0.7px
+		font-size: 15.27px
+		margin-left: 55px
+
+.item-clock
+	grid-area: e
+	background-image: url(img/clock.png)
+	color: #fff
+	p 
+		margin: 0px 150px 29px 56px
+		letter-spacing: 0.1px
+	a
+		color: #fff
+		border: 1px solid #fff
+		padding: 15px 45px
+
+.item-designer
+	grid-area: f
+	background-image: url(img/designer.png)
+
+.designer
+	padding: 232px 0px 65px 40px
+	h2
+		margin: 10px 63px 0px 0px
+		color: #fff
+		letter-spacing: 0px
+	p
+		padding: 0px
+		color: #fff
+		margin: 0px
+		font-size: 15.57px
+
+.item-road
+	grid-area: h
+	background-image: url(img/road.png)
+	padding-left: 18px
+
+	form 
+		max-width: 620px
+		display: flex
+		flex-wrap: wrap
+		justify-content: space-between
+		padding-left: 30px
+		padding-top: 22px
+		padding-bottom: 75px
+		input, textarea
+			background-color: transparent
+			color: #fff
+			border: 1px solid #fff
+			border-radius: 15px
+			padding: 19px 27px
+			margin-bottom: 12px
+			&::placeholder 
+				color: #fff
+			&:focus
+				border-radius: 15px
+
+	input
+		width: calc(48% - 49px)
+
+	textarea
+		width: 100%
+		height: 120px
+		
+.social-buttom
+	p
+		margin-left: 30px
+		color: #fff
+		margin-bottom: 20px
+		letter-spacing: 0.4px
+	ul
+		list-style-type: none
+		display: flex
+		padding: 0px 0px 25px 30px
+		li
+			margin-right: 6px
+			a
+				background-size: cover
+				background-repeat: no-repeat
+				border: none
+				border-radius: 10px
+				display: block
+				height: 45px
+				width: 45px
+				padding: 0px
+				margin: 0px
+			.fb
+				background-image: url(img/Facebook.png)
+			.tw
+				background-image: url(img/Twitter.png)
+			.dr
+				background-image: url(img/Dribbble.png)
