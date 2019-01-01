@@ -112,15 +112,15 @@ a {
 
 .item-designer {
   grid-area: f;
-  background-image: url(img/designer.png); }
-
-.designer {
-  padding: 232px 0px 65px 40px; }
-  .designer h2 {
+  background-image: url(img/designer.png);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between; }
+  .item-designer h2 {
     margin: 10px 63px 0px 0px;
     color: #fff;
     letter-spacing: 0px; }
-  .designer p {
+  .item-designer p {
     padding: 0px;
     color: #fff;
     margin: 0px;
