@@ -185,10 +185,8 @@ a {
     justify-content: space-between;
     padding-left: 30px;
     padding-top: 22px;
-    padding-bottom: 75px; }
-@media(max-width: 760px) {
-  .item-road form {
-    padding-right: 30px; } }
+    padding-bottom: 75px;
+    padding-right: 30px; }
     .item-road form input, .item-road form textarea {
       background-color: transparent;
       color: #fff;
