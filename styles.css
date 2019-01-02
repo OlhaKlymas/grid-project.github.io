@@ -62,7 +62,9 @@ a {
   padding: 15px 41px;
   margin-left: 55px;
   line-height: 5.9; }
-
+@media(max-width: 350px) {
+  a {
+    padding: 15px; } }
 .button {
   display: block;
   width: 33px;
@@ -79,7 +81,9 @@ a {
   grid-template-rows: auto;
   grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11%;
   grid-template-areas: "a a a a a a b b b" "c c c c d d d d d" "c c c c e e e e e" "f f f h h h h h h"; }
-
+@media(max-width: 635px) {
+  .grid {
+    grid-template-areas: "a a a a a a a a a" "b b b b b b b b b" "c c c c c c c c c" "d d d d d d d d d" "e e e e e e e e e" "f f f f f f f f f" "h h h h h h h h h"; } }
 .item-human, .item-blue, .item-road, .item-designer, .item-cream, .item-clock {
   background-size: cover;
   background-repeat: no-repeat;
@@ -88,12 +92,17 @@ a {
 .item-human {
   grid-area: a;
   background-image: url(img/boy.png); }
-
+@media(max-width: 635px) {
+  .item-human {
+    height: 280px;
+    background-position: left center; } }
 .item-gray {
   grid-area: b;
   background-color: #f3f3f3;
   padding-bottom: 65px; }
-
+@media(max-width: 350px) {
+  .item-gray {
+    padding-bottom: 30px; } }
 .item-blue {
   grid-area: c;
   background-image: url(img/desk.png);
@@ -121,6 +130,9 @@ a {
   .item-cream p {
     margin-right: 20px;
     margin-bottom: 60px; } }
+@media(max-width: 350px) {
+  .item-cream p {
+    margin-bottom: 20px; } }
 .item-clock {
   grid-area: e;
   background-image: url(img/clock.png);
@@ -133,11 +145,16 @@ a {
     margin-right: 20px;
     margin-bottom: 60px;
     font-size: 15.27px; } }
+@media(max-width: 350px) {
+  .item-clock p {
+    margin-bottom: 20px; } }
   .item-clock a {
     color: #fff;
     border: 1px solid #fff;
     padding: 15px 45px; }
-
+@media(max-width: 350px) {
+  .item-clock a {
+    padding: 15px; } }
 .item-designer {
   grid-area: f;
   background-image: url(img/designer.png);
