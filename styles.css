@@ -61,15 +61,14 @@ a {
   grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11%;
   grid-template-areas: "a a a a a a b b b" "c c c c d d d d d" "c c c c e e e e e" "f f f h h h h h h"; }
 
-.item-boy, .item-blue, .item-road, .item-designer, .item-cream, .item-clock {
+.item-human, .item-blue, .item-road, .item-designer, .item-cream, .item-clock {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
 
 .item-human {
   grid-area: a;
-  background-image: url(img/boy.png);
-  height: 100%; }
+  background-image: url(img/boy.png); }
 
 .item-gray {
   grid-area: b;
@@ -125,11 +124,14 @@ a {
     color: #fff;
     margin: 0px;
     font-size: 15.57px; }
+  .item-designer .designer {
+    padding: 66px 40px; }
 
 .item-road {
   grid-area: h;
   background-image: url(img/road.png);
-  padding-left: 18px; }
+  padding-left: 18px;
+  min-height: 715px; }
   .item-road form {
     max-width: 620px;
     display: flex;
