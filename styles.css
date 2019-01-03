@@ -150,8 +150,6 @@ a {
       margin-bottom: 12px; }
       .item-road form input::placeholder, .item-road form textarea::placeholder {
         color: #fff; }
-      .item-road form input:focus, .item-road form textarea:focus {
-        border-radius: 15px; }
   .item-road input {
     width: calc(48% - 49px); }
   .item-road textarea {

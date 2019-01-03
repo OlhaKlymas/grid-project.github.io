@@ -30,21 +30,32 @@
 	input
 		width: 100%
 
-@media only screen and (max-width: 350px)
-	a
-		padding: 15px
-	.item-gray
-		padding-bottom: 30px
-	.item-cream
-		p
-			margin-bottom: 20px
-	.item-clock
-		p 
-			margin-bottom: 20px
-
 @media only screen and (max-width: 635px)
 	.grid
 		grid-template-areas: "a a a a a a a a a" "b b b b b b b b b" "c c c c c c c c c" "d d d d d d d d d" "e e e e e e e e e" "f f f f f f f f f" "h h h h h h h h h"
 	.item-human
 		height: 280px
 		background-position: left center
+	.item-gray, .item-blue, .item-road, .item-designer, .item-cream, .item-clock, .designer	
+		h2, h3, h4, p
+			margin-left: 40px
+			margin-right: 20px
+		p
+			font-size: 16.57px
+			margin-bottom: 30px
+		a
+			margin-bottom: 30px
+	.item-gray
+		padding-bottom: 30px
+	.item-blue, .designer
+		padding-left: 0px
+
+@media only screen and (max-width: 350px)
+	a
+		padding: 15px
+	.item-cream
+		p
+			margin-bottom: 20px
+	.item-clock
+		p 
+			margin-bottom: 20px
