@@ -58,9 +58,9 @@
     .item-gray .designer h2, .item-gray .designer p, .item-blue .designer h2, .item-blue .designer p, .item-road .designer h2, .item-road .designer p, .item-designer .designer h2, .item-designer .designer p, .item-cream .designer h2, .item-cream .designer p, .item-clock .designer h2, .item-clock .designer p, .designer .designer h2, .designer .designer p {
       margin: 0px; }
   .item-gray a, .item-blue a, .item-road a, .item-designer a, .item-cream a, .item-clock a, .designer a {
-    padding: 0px 25px;
+    padding: 0px 60px;
     display: block;
-    margin: 20px 22% 60px 22%;
+    margin: 20px 18% 60px 12%;
     line-height: 4; }
   .item-gray ul, .item-blue ul, .item-road ul, .item-designer ul, .item-cream ul, .item-clock ul, .designer ul {
     padding-left: 0px; }
