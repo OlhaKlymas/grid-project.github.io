@@ -27,28 +27,43 @@
 			margin-right: 20px
 			margin-bottom: 60px
 			font-size: 15.27px
-	input
-		width: 100%
-
+	
 @media only screen and (max-width: 635px)
 	.grid
 		grid-template-areas: "a a a a a a a a a" "b b b b b b b b b" "c c c c c c c c c" "d d d d d d d d d" "e e e e e e e e e" "f f f f f f f f f" "h h h h h h h h h"
 	.item-human
 		height: 280px
 		background-position: left center
+	.item-designer
+		min-height: 600px
 	.item-gray, .item-blue, .item-road, .item-designer, .item-cream, .item-clock, .designer	
-		h2, h3, h4, p
+		h2, h3, h4, p, ul
 			margin-left: 40px
-			margin-right: 20px
+			margin-right: 40px
 		p
 			font-size: 16.57px
 			margin-bottom: 30px
+		input
+			width: 100%
+		form
+			padding-left: 40px
+		.designer
+			padding-top: 66px
+			padding-bottom: 50px
+			h2, p
+				margin: 0px
 		a
-			margin-bottom: 30px
+			padding: 0px 25px
+			display: block
+			margin: 20px 22% 60px 22%
+			line-height: 4
+		ul
+			padding-left: 0px
 	.item-gray
 		padding-bottom: 30px
-	.item-blue, .designer
+	.item-blue, .item-road
 		padding-left: 0px
+
 
 @media only screen and (max-width: 350px)
 	a

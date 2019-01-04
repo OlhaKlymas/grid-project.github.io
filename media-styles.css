@@ -30,10 +30,7 @@
   .item-clock p {
     margin-right: 20px;
     margin-bottom: 60px;
-    font-size: 15.27px; }
-
-  input {
-    width: 100%; } }
+    font-size: 15.27px; } }
 @media only screen and (max-width: 635px) {
   .grid {
     grid-template-areas: "a a a a a a a a a" "b b b b b b b b b" "c c c c c c c c c" "d d d d d d d d d" "e e e e e e e e e" "f f f f f f f f f" "h h h h h h h h h"; }
@@ -42,19 +39,36 @@
     height: 280px;
     background-position: left center; }
 
-  .item-gray h2, .item-gray h3, .item-gray h4, .item-gray p, .item-blue h2, .item-blue h3, .item-blue h4, .item-blue p, .item-road h2, .item-road h3, .item-road h4, .item-road p, .item-designer h2, .item-designer h3, .item-designer h4, .item-designer p, .item-cream h2, .item-cream h3, .item-cream h4, .item-cream p, .item-clock h2, .item-clock h3, .item-clock h4, .item-clock p, .designer h2, .designer h3, .designer h4, .designer p {
+  .item-designer {
+    min-height: 600px; }
+
+  .item-gray h2, .item-gray h3, .item-gray h4, .item-gray p, .item-gray ul, .item-blue h2, .item-blue h3, .item-blue h4, .item-blue p, .item-blue ul, .item-road h2, .item-road h3, .item-road h4, .item-road p, .item-road ul, .item-designer h2, .item-designer h3, .item-designer h4, .item-designer p, .item-designer ul, .item-cream h2, .item-cream h3, .item-cream h4, .item-cream p, .item-cream ul, .item-clock h2, .item-clock h3, .item-clock h4, .item-clock p, .item-clock ul, .designer h2, .designer h3, .designer h4, .designer p, .designer ul {
     margin-left: 40px;
-    margin-right: 20px; }
+    margin-right: 40px; }
   .item-gray p, .item-blue p, .item-road p, .item-designer p, .item-cream p, .item-clock p, .designer p {
     font-size: 16.57px;
     margin-bottom: 30px; }
+  .item-gray input, .item-blue input, .item-road input, .item-designer input, .item-cream input, .item-clock input, .designer input {
+    width: 100%; }
+  .item-gray form, .item-blue form, .item-road form, .item-designer form, .item-cream form, .item-clock form, .designer form {
+    padding-left: 40px; }
+  .item-gray .designer, .item-blue .designer, .item-road .designer, .item-designer .designer, .item-cream .designer, .item-clock .designer, .designer .designer {
+    padding-top: 66px;
+    padding-bottom: 50px; }
+    .item-gray .designer h2, .item-gray .designer p, .item-blue .designer h2, .item-blue .designer p, .item-road .designer h2, .item-road .designer p, .item-designer .designer h2, .item-designer .designer p, .item-cream .designer h2, .item-cream .designer p, .item-clock .designer h2, .item-clock .designer p, .designer .designer h2, .designer .designer p {
+      margin: 0px; }
   .item-gray a, .item-blue a, .item-road a, .item-designer a, .item-cream a, .item-clock a, .designer a {
-    margin-bottom: 30px; }
+    padding: 0px 25px;
+    display: block;
+    margin: 20px 22% 60px 22%;
+    line-height: 4; }
+  .item-gray ul, .item-blue ul, .item-road ul, .item-designer ul, .item-cream ul, .item-clock ul, .designer ul {
+    padding-left: 0px; }
 
   .item-gray {
     padding-bottom: 30px; }
 
-  .item-blue, .designer {
+  .item-blue, .item-road {
     padding-left: 0px; } }
 @media only screen and (max-width: 350px) {
   a {
