@@ -8,13 +8,13 @@
 Grid_project - это результат моего знакомства с Grid CSS.<br> 
 Проект был разработан по макету и адаптирован под разные устройства.
 
-### Просмотр 
-Проект Вы можете посмотреть на GitHub Page:
+### 📸 Просмотр 
+Проект Вы можете посмотреть на GitHub Page:<br> 
 https://olhaklymas.github.io/grid_project/
 
-Макет можно увидеть по ссылке
+Макет можно увидеть по ссылке<br> 
 https://www.dropbox.com/sh/pf7piuixn1zzg3c/AADDyRejHKplzV-EzGOmxtVxa?dl=0
-
+<br> 
 <div align="center">
   <!-- Сделано с любовь -->
     <img src="https://img.shields.io/badge/%D0%A1%D0%B4%D0%B5%D0%BB%D0%B0%D0%BD%D0%BE%20%D1%81-%F0%9F%96%A4-red.svg?longCache=true&style=for-the-badge&colorA=000&colorB=fedcba"
