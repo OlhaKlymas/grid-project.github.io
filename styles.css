@@ -137,10 +137,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 30px;
-    padding-top: 22px;
-    padding-bottom: 75px;
-    padding-right: 30px; }
+    padding: 22px 30px 75px 30px; }
     .item-road form input, .item-road form textarea {
       background-color: transparent;
       color: #fff;
