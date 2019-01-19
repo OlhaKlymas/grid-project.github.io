@@ -14,6 +14,10 @@ Grid_project - это результат моего знакомства с Grid
 Проект Вы можете посмотреть на GitHub Page:<br> 
 https://olhaklymas.github.io/grid_project/
 
+
+### 📸 Макет
+<img src="img/alisayed.png">
+
 Макет можно скачать по ссылке<br> 
 https://www.dropbox.com/sh/pf7piuixn1zzg3c/AADDyRejHKplzV-EzGOmxtVxa?dl=0
 
