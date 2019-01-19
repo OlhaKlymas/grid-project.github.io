@@ -16,7 +16,7 @@ https://olhaklymas.github.io/grid_project/
 
 
 ### ✏️ Макет
-<img src="img/alisayed.png" center="center" height="600px">
+<img src="img/alisayed.png" text-aline="center" height="600px">
 
 Макет можно скачать по ссылке<br> 
 https://www.dropbox.com/sh/pf7piuixn1zzg3c/AADDyRejHKplzV-EzGOmxtVxa?dl=0
